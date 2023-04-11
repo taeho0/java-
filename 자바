@@ -1,0 +1,13 @@
+package taeho0920;
+
+public class taeho0815 {
+
+	public static void main(String[] args) {
+		int a = 18;
+				System.out.println(a);
+		int x = 920;
+				System.out.println(x);
+		
+	}
+
+}
