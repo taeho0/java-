@@ -1,0 +1,15 @@
+package taeho0920;
+
+public class Taeho0815 {
+
+	public static void main(String[] args) {
+		int 아무거나 = 18;
+		int 아무거나일 = ++아무거나;
+		System.out.println("++아무거나 "+아무거나일);
+		
+		아무거나 = 18;
+		아무거나일 =아무거나++;
+		System.out.println("아무거나++ "+아무거나일);
+	}
+
+}
