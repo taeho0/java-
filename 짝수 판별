@@ -1,0 +1,20 @@
+package taeho0920;
+
+public class Taeho0920 {
+
+	public static void main(String[] args) {
+		int num = 18;
+		String 결과 = "";
+		결과= (num%2==0) ? "짝수" : "홀수";
+		System.out.println(num+":"+결과);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
