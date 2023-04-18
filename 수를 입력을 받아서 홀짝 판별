@@ -1,0 +1,17 @@
+package taeho0920;
+
+import java.util.Scanner;
+
+public class Taeho070920 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);//수를 입력을 받는다
+		int num = sc.nextInt();//입력받은 문자열을 num이라는 변수에 정수로 형변환을 시켜서 저장을 핝다
+		if (num%2==0) //num 변수가 2로 나누었을때 그의 나머지가 0이면 
+			System.out.println("짝수"); //짝수를 실행
+		else 
+			System.out.println("홀수");//만약 F이면 아래 문장으로 와서 홀수라는 문자를 출력을 한다
+		
+	}
+
+}
