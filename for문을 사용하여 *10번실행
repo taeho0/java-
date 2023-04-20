@@ -1,0 +1,24 @@
+package taeho0920;
+
+public class taeho0815 {
+
+	public static void main(String[] args) {
+
+		//int 숫자 = 1;
+		//int 숫자2 = 1;
+		//while(숫자2<=10) {
+
+		
+			//while(숫자<=10) {
+			//System.out.print("*");	
+			//숫자++;
+		for(int 숫자2=1; 숫자2<10;숫자2++) {
+
+			for(int 숫자 = 1;숫자<=10;숫자++) {
+				System.out.print("*");
+			}
+				System.out.println();
+						
+		}
+	}
+}
