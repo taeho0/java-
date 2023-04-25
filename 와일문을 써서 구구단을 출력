@@ -1,0 +1,20 @@
+package taeho0920;
+
+import java.util.Scanner;
+
+public class Taeho0920 {
+
+	public static void main(String[] args) {
+		//구구단 만들기
+		Scanner sc = new Scanner(System.in);//정수형을 입력 받기
+		
+		System.out.println("몇단이 보고싶니?");
+		int 몇단 = sc.nextInt();
+
+		int 곱 = 1;
+		//와일 문을 써서 구구단을 만들기
+		while(곱<=9) {
+			System.out.println(몇단+" * 1~9 ="+(몇단*1~9));
+			System.out.println(몇단+" * 곱 ="+(몇단*곱));
+			곱++;
+		}	
