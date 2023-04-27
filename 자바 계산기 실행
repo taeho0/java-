@@ -1,0 +1,59 @@
+package taeho0920;
+
+import java.util.Scanner;
+
+public abstract class Taeho0815 {
+
+	public static void main(String[] args) {
+;	
+		Scanner input = new Scanner(System.in);
+		       int choice;
+		       
+		       while (true) {
+		           System.out.println("Calculator Menu");
+		           System.out.println("1. Calculate");
+		           System.out.println("2. Exit");
+		           
+		           System.out.print("Enter your choice: ");
+		           choice = input.nextInt();
+		           
+		           if (choice == 1) {
+		               System.out.print("first number : ");
+		               String a = input.next();
+		               
+		               System.out.print("연산자: ");
+		               String b = input.next();
+		               
+		               System.out.print("second number : ");
+		               String c = input.next();
+		               
+		               double num1 = Double.parseDouble(a);
+		               double num2 = Double.parseDouble(c);
+		               double result;
+		               
+		               if (b.equals("+")) {
+		                   result = num1 + num2;
+		                   System.out.println(num1 + " + " + num2 + " = " + result);
+		               } else if (b.equals("-")) {
+		                   result = num1 - num2;
+		                   System.out.println(num1 + " - " + num2 + " = " + result);
+		               } else if (b.equals("*")) {
+		                   result = num1 * num2;
+		                   System.out.println(num1 + " * " + num2 + " = " + result);
+		               } else {
+		                   result = num1 / num2;
+		                   System.out.println(num1 + " / " + num2 + " = " + result);
+		               }
+		           } else if (choice == 2) {
+		               break;
+		           } else {
+		               System.out.println("Invalid choice. Please try again.");
+		           }
+		       }
+		       
+		       System.out.println("Goodbye!");
+		}
+
+
+
+	}
