@@ -1,0 +1,30 @@
+package taeho0920;
+
+import java.util.Scanner;
+
+public class Taeho00920 {
+
+	public static void main(String[] args) {
+			
+		int[] 배열 = new int[100];
+		int 배열2[]= new int[100];
+		
+		int[] 배열1 = new int[5];
+		int 엿 = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		while(엿<5) {
+			System.out.print("배열 값을 입력하세요!");
+			배열1[엿] = sc.nextInt();
+			엿++;
+		
+		
+		}
+		for(int 영원=0; 영원<5;영원++) {
+			System.out.println(배열1[영원]);
+		}
+		//int 영원 = 0;
+		//System.out.println(배열[영원]);
+	}
+
+}
