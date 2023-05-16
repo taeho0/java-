@@ -1,0 +1,24 @@
+package taeho0920;
+
+import java.util.Scanner;
+
+public class Kmk08 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("start :");
+		int 시작 = sc.nextInt();
+		
+		System.out.println("last :");
+		int 마지막 = sc.nextInt();
+		
+		System.out.println("value change?:");
+		int 증감값 = sc.nextInt();
+		
+		for(int i=시작; i<=마지막; i+=증감값) {
+			System.out.println();
+		}
+	}
+
+}
