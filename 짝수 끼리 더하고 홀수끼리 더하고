@@ -1,0 +1,23 @@
+package taeho0920;
+
+import java.util.Scanner;
+
+public class Taeho0920 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int 홀수 = 0;
+		int 짝수 = 0;
+		for(int i = 1;i<=a;i++ ) {
+			if(i%2 == 0) {
+				짝수 += i;
+			}else if(i%2 == 1) {
+					홀수 += i;
+				}
+			
+		}
+		System.out.println("홀수의 합은 "+홀수);
+		System.out.println("짝수의 합은 "+짝수);
+	}
+}
