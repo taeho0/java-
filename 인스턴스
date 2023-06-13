@@ -1,0 +1,19 @@
+package taeho0920;
+
+public class 민경 {
+
+	public static void main(String[] args) {
+
+		KMK0815 p1 = new KMK0815();
+		
+		p1.name = "고라파덕";
+		
+		System.out.println(p1.name+"의 레벨은 :"+p1.level);
+		System.out.println("레벨업!!!!");
+	
+		p1.레벨업();
+		System.out.println(p1.name+"의 레벨은 :"+p1.level);
+		
+	}
+
+}
