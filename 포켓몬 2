@@ -1,0 +1,22 @@
+package kmk_0815;
+
+import java.util.Scanner;
+
+public class 민경이0815 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		푸린 p1 = new 푸린("민경몬");
+		System.out.println(p1.pno+":"+p1.pno);
+		푸린 p2 = new 푸린();
+		System.out.println(p2.pno+":"+p2.pno);
+		푸린 p3 = new 푸린();
+		System.out.println(p3.pno+":"+p3.pno);
+		
+		
+		
+		
+	}
+
+}
